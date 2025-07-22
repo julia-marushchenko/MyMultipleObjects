@@ -19,23 +19,29 @@ public class Main {
     }
 }
 
+// Animal class
 class Animal {
     public Animal(){
     }
 }
 
+// Cat class
 class Cat extends Animal {
     public Cat() {
         System.out.println("I am Cat");
     }
 }
 
+
+// Horse class
 class Horse extends Animal {
     public Horse() {
         System.out.println("I am Horse");
     }
 }
 
+
+// Cow class
 class Cow extends Animal {
     public Cow() {
         System.out.println("I am Cow");
